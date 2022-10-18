@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jeck
+    username: root
+    password: Ll1442828431
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# mybatis
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto #配置主键自增
